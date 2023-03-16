@@ -1,3 +1,4 @@
+```python
 import sqlite3
 
 # Create a connection to a SQLite database
@@ -41,3 +42,5 @@ cursor.execute("DELETE FROM users WHERE name='Charlie'")
 # Close the cursor and connection
 cursor.close()
 conn.close()
+
+```

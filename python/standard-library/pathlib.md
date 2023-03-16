@@ -1,3 +1,4 @@
+```python
 import pathlib
 
 # Path objects can be created with strings
@@ -78,3 +79,4 @@ pathlib.Path('source.txt').replace('destination.txt')
 # Globbing
 list(pathlib.Path('/etc').glob('*.conf'))
 list(pathlib.Path('/etc').rglob('*.conf'))
+```

@@ -1,3 +1,4 @@
+```python
 import configparser
 
 # Create a ConfigParser object
@@ -54,3 +55,5 @@ with open('config.ini', 'w') as configfile:
 # - The `getboolean(section, option)` method returns a boolean value. The value of the option is interpreted as a boolean using standard Python boolean rules (e.g. "yes", "true", and "on" are interpreted as True, while "no", "false", and "off" are interpreted as False).
 # - The `set(section, option, value)` method sets the value of the specified option in the specified section.
 # - The `write(file)` method writes the current state of the `ConfigParser` object to the specified file.
+
+```

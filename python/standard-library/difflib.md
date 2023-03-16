@@ -1,3 +1,4 @@
+```python
 import difflib
 
 # Create a Differ object
@@ -106,3 +107,5 @@ print(f'match: {match}')
 
 # Output:
 # match: Match(a=0, b=0, size=6)
+
+```

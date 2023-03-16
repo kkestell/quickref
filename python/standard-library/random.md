@@ -1,3 +1,4 @@
+```python
 import random
 
 # Random integers
@@ -23,3 +24,5 @@ string = ''.join(random.choice(letters) for i in range(10))  # Generates a rando
 # Random seeds
 random.seed(42)  # Sets the random seed to ensure reproducibility
 
+
+```

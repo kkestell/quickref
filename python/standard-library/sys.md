@@ -1,3 +1,4 @@
+```python
 import sys
 
 # Get the command line arguments passed to the script
@@ -44,3 +45,4 @@ ref_count = sys.getrefcount(obj)
 
 # Get the name of the current thread
 thread_name = threading.current_thread().name if 'threading' in sys.modules else None
+```

@@ -1,3 +1,4 @@
+```python
 import math
 
 # Constants
@@ -44,3 +45,4 @@ random_integer = math.randint(1, 10)
 # Distance and angle functions
 distance = math.dist([0, 0], [3, 4])
 angle = math.degrees(math.atan2(4, 3))
+```

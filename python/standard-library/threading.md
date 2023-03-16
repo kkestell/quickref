@@ -1,3 +1,4 @@
+```python
 import threading
 
 # Creating a Thread
@@ -112,3 +113,5 @@ for f in [producer, consumer]:
 
 for t in threads:
     t.join()
+
+```

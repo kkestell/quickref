@@ -1,3 +1,4 @@
+```python
 import os
 
 # Get the current working directory
@@ -52,3 +53,5 @@ os.chmod('/path/to/file/or/dir', 0o755)
 
 # Execute a command in the shell
 os.system('ls -l')
+
+```

@@ -1,3 +1,4 @@
+```python
 import datetime
 
 # Creating datetime objects
@@ -36,3 +37,5 @@ utc_timezone = datetime.timezone.utc
 utcnow_with_timezone = utcnow.replace(tzinfo=utc_timezone)
 local_timezone = datetime.timezone(datetime.datetime.now(datetime.timezone.utc).astimezone().tzinfo)
 localnow_with_timezone = utcnow_with_timezone.astimezone(local_timezone)
+
+```

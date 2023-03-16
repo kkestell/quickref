@@ -1,3 +1,4 @@
+```python
 import json
 
 # Encoding and decoding JSON
@@ -17,3 +18,5 @@ try:
     data_dict = json.loads('{"name": "John", "age": 30,}')  # Raises a ValueError because of the trailing comma
 except ValueError as e:
     print(f'Error decoding JSON: {e}')
+
+```

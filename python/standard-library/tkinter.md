@@ -1,3 +1,4 @@
+```python
 import tkinter as tk
 
 # Create a root window
@@ -56,3 +57,5 @@ root.config(menu=menu_bar)
 
 # Start the event loop
 root.mainloop()
+
+```

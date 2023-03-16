@@ -1,3 +1,4 @@
+```python
 import csv
 
 # Reading CSV files
@@ -27,3 +28,5 @@ with open('file.csv', 'w', newline='') as csvfile:
     writer.writerow({'Name': 'Alice', 'Age': '30', 'Email': 'alice@example.com'})
     writer.writerow({'Name': 'Bob', 'Age': '35', 'Email': 'bob@example.com'})
 
+
+```

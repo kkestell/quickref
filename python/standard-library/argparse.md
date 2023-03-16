@@ -1,3 +1,4 @@
+```python
 import argparse
 
 # Basic usage
@@ -33,4 +34,4 @@ if args.subparser == 'command_a':
     # Handle command A
 elif args.subparser == 'command_b':
     # Handle command B
-
+```

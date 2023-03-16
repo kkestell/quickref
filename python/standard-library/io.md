@@ -1,3 +1,4 @@
+```python
 import io
 
 # Creating an in-memory buffer
@@ -63,3 +64,4 @@ with open('example.csv', 'w', newline='') as f:
     writer.writerow(['Name', 'Age'])
     writer.writerow(['John', '25'])
     writer.writerow(['Jane', '30'])
+```

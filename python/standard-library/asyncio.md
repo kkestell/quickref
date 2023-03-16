@@ -1,4 +1,5 @@
 ```python
+```python
 import asyncio
 
 # Basic example

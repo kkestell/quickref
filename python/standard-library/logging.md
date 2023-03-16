@@ -1,3 +1,4 @@
+```python
 import logging
 
 # Basic Configuration
@@ -45,3 +46,5 @@ rotating_handler = RotatingFileHandler('my_log.log', maxBytes=1000, backupCount=
 rotating_handler.setLevel(logging.DEBUG)
 rotating_handler.setFormatter(formatter)
 logging.getLogger().addHandler(rotating_handler)
+
+```

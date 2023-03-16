@@ -1,3 +1,4 @@
+```python
 import pickle
 
 # Pickle an object
@@ -49,3 +50,4 @@ try:
         data = pickle.load(f)
 except (EOFError, pickle.UnpicklingError):
     print("Error: Could not unpickle the object")
+```

@@ -1,3 +1,4 @@
+```python
 from typing import List, Tuple, Dict, Any, Union
 
 # Define types for function arguments and return values
@@ -36,3 +37,5 @@ print(multiply_values(2, 3))        # Output: 6
 print(multiply_values(2.5, 3.5))    # Output: 8.75
 print(multiply_values(2, 3.5))      # Output: 7.0
 
+
+```

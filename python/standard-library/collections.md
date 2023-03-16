@@ -1,3 +1,4 @@
+```python
 import collections
 
 # Counter
@@ -27,4 +28,4 @@ Point = collections.namedtuple('Point', ['x', 'y'])
 p = Point(1, 2)
 print(p)  # Point(x=1, y=2)
 print(p.x)  # 1
-
+```

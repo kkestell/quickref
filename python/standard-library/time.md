@@ -1,3 +1,4 @@
+```python
 import time
 
 # Get the current time in seconds since the epoch
@@ -35,3 +36,5 @@ print(cpu_time)  # e.g. 69.0116906
 # Get the CPU time in seconds since an arbitrary point in time
 cpu_time = time.monotonic()
 print(cpu_time)  # e.g. 52322.0816759
+
+```

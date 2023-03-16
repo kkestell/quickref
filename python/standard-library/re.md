@@ -1,3 +1,4 @@
+```python
 import re
 
 # Basic pattern matching
@@ -32,3 +33,5 @@ match_phone = re.match(r'^\+?[0-9]{1,3}\s?[0-9]{10}$', '+1 1234567890')
 # Flags
 match_case_insensitive = re.match(r'hello', 'Hello', re.IGNORECASE)
 match_multiple_lines = re.match(r'^hello', 'hello\nworld', re.MULTILINE)
+
+```
